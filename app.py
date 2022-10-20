@@ -6,7 +6,6 @@
 from flask import Flask
 from flask_restx import Api
 from config import Config
-#from dao.model.models import Genre, Director, Movie
 from setup_db import db
 from views.director import director_ns
 from views.genre import genre_ns
